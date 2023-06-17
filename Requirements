@@ -1,0 +1,29 @@
+Actors: 
+  Client/User
+  Theatre Owner
+  BMS System
+ 
+ Sequence of Events
+ 
+  Client/user -> Search based on movies/location/cinema/language/date/time/price
+              -> Select movie/showtime/theatre/seats
+              -> Can select meals packages as well
+              -> Payment modes
+  
+  Theatre Owner -> Add different movies shows based on 
+                          * movie rating/release date
+                          * Weekday and time 
+                          * Movie Hall
+                   Add seats number details for every show
+                   Add meal menu 
+                   
+   BMS System -> Show latest movies, nearby theatres and shows
+              -> Track the availability of seats
+              -> Show offers and meal combo
+              -> Payment confirmation
+              -> Ticket details and notification
+              
+   Common Events for Client and Theatre owner
+                -> Login/Registration
+                -> Feedback
+      
